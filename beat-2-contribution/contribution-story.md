@@ -55,10 +55,11 @@ happened; these entries are the toolkit's own timeline.
 All four entries are graded. Keep every heading below, and fill each
 one in the week it belongs to.
 
-**Unit 5: [one line on the tool work]**
 
-[2-4 sentences: what you built (the scout, your strategy), what broke
-or fell short, what changed because of it.]
+**Unit 5: Built issue-scout's search strategy and fixed its blind spot to issues that already have a PR**
+
+I wrote a fit profile and a search strategy for issue-scout (three `gh search issues` queries for Python good-first-issues, ranking filters, top 5 graded). My first scan graded 5 issues and accepted only one; three were rejected because another contributor's open PR already said "Closes #N", which my `--no-assignee` queries could not see since PRs never set an assignee. I added `-linked:pr` to every query (checked that a known PR-linked issue dropped out) and a one-issue-per-repo rule, because one repo had taken two of the five graded slots. I left the rubric unchanged because each reject cited a real PR or scope trigger. When grading my picks the scout also rejected ArduPilot #14438 for a two-day-old claim comment and an earlier closed PR; I am still using it for this class exercise and will say so in "Why I Chose This Issue".
+
 
 **Unit 6: [one line on the tool work]**
 
