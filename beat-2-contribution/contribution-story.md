@@ -8,7 +8,7 @@ format criteria grade exactly that. Your course repo link is the whole submissio
 files and no evidence uploads are part of Assignment 5.
 
 **Contribution Number:** [1]
-**Student:** youlinaxu-en
+**Student:** Zhiqi Niu
 **GitHub Username:** youlinaxu-en
 **Issue:** https://github.com/codepath/pathreview-ai301-fa26-s3/issues/68
 **Pull Request:** https://github.com/codepath/pathreview-ai301-fa26-s3/pull/261
